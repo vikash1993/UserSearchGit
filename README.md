@@ -185,3 +185,11 @@ Shut it down manually with `Ctrl-C`.
 
 [travis-badge]: https://travis-ci.org/angular/quickstart.svg?branch=master
 [travis-badge-url]: https://travis-ci.org/angular/quickstart
+
+echo "# UserSearchGit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/vikash1993/UserSearchGit.git
+git push -u origin master
+

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [ "es2015", "dom" ],
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "defaults": {
+    "styleExt": "scss",
+    "component": {
+      "spec": false
+    },
+    "service": {
+      "spec": false
+    },
+    "directive": {
+      "spec": false
+    },
+    "class": {
+      "spec": false // Set to false by default
+    },
+    "module": {
+      "spec": false // Set to false by default
+    },
+    "pipe": {
+      "spec": false
+    }
+  }
+}
